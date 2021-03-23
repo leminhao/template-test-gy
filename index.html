@@ -1,725 +1,1731 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goya Fashion</title>
 
-  <link rel="icon" href="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/07/logo-alt.png"
-    type="image/x-icon" />
-  <title>Goya Fashion - Goya Template</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="icon" href="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/07/logo-alt.png" type="image/x-icon" />
 
-  <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css" />
+    <!-- Slide -->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@300;400;500;700&display=swap"
-    rel="stylesheet" />
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
+    
 </head>
-
 <body>
-  <div class="app">
-    <div class="header">
-      <div class="header__contact hide-on-mobile-tablet">
-        <ul class="header__contact-list">
-          <li class="header__contact-item">
-            <a href="" class="header__contact-item-link">
-              <i class="header__contact-icon ti-facebook"></i>
-            </a>
-          </li>
-          <li class="header__contact-item">
-            <a href="" class="header__contact-item-link">
-              <i class="header__contact-icon ti-twitter-alt"></i>
-            </a>
-          </li>
-          <li class="header__contact-item">
-            <a href="" class="header__contact-item-link">
-              <i class="header__contact-icon ti-instagram"></i>
-            </a>
-          </li>
-
-          <li class="header__contact-item">
-            <a href="" class="header__contact-item-link"> About Us </a>
-          </li>
-
-          <li class="header__contact-item">
-            <a href="" class="header__contact-item-link"> Wishlist </a>
-          </li>
-
-          <li class="header__contact-item">
-            <a href="" class="header__contact-item-link"> Contact </a>
-          </li>
-        </ul>
-
-        <ul class="header__contact-list">
-          <li class="header__contact-item header__contact-language">
-            <a href="" class="header__contact-item-language">
-              English
-              <i class="header__contact-icon-arrow ti-angle-down"></i>
-            </a>
-            <ul class="header__contact-subnav">
-              <li class="header__contact-subnav-item">
-                <a href="#" class="header__contact-subnav-item-link">Français</a>
-              </li>
-              <li class="header__contact-subnav-item">
-                <a href="#" class="header__contact-subnav-item-link">Deutsch</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <!-- 
-
-
-        sub
-       -->
-
-      <div id="header__navbar-scroll" class="header__navbar hide-on-mobile-tablet">
-        <div class="header__navbar-left">
-          <ul class="header__navbar-list">
-            <li class="header__navbar-item">
-              <label for="header__menu-input" class="header__navbar-item-link">
-                <i class="header__navbar-icon ti-menu"></i>
-              </label>
-            </li>
-
-            <li class="header__navbar-item">
-              <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
-                Main
-              </a>
-            </li>
-
-            <li class="header__navbar-item">
-              <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
-                Shop
-              </a>
-            </li>
-
-            <li class="header__navbar-item">
-              <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
-                Product
-              </a>
-            </li>
-
-            <li class="header__navbar-item">
-              <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
-                Pages
-              </a>
-            </li>
-
-            <li class="header__navbar-item">
-              <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
-                Journal
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="header__navbar-center">
-          <img src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/07/logo-light.png"
-            class="header__navbar-brand-logo" alt="" />
-        </div>
-
-        <div class="header__navbar-right">
-          <ul class="header__navbar-list">
-            <li class="header__navbar-item">
-              <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
-                My Account
-              </a>
-            </li>
-
-            <li class="header__navbar-item">
-              <label for="header__menu-search" href="#" class="header__navbar-item-link">
-                <i class="header__navbar-icon ti-search"></i>
-              </label>
-            </li>
-
-            <li class="header__navbar-item">
-              <a href="" class="header__navbar-item-link">
-                <i class="header__navbar-icon ti-heart"></i>
-              </a>
-            </li>
-
-            <li class="header__navbar-item">
-              <label for="header__menu-bag" href="#" class="header__navbar-item-link">
-                <i class="header__navbar-icon ti-bag"></i>
-              </label>
-              <span class="header__navbar-item-notice">2</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Begin: Content -->
-      <div id="header__container">
-        <div class="container-ads">
-          <img src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2020/02/monigote.jpg" alt=""
-            class="header__slider-img" />
-          <div class="sub-container">
-            <span class="sub-container__ads">Spring/Summer '19</span>
-            <h1 class="sub-container__title">
-              The Weekent <br />
-              Getaway
-            </h1>
-            <p class="sub-container__shop-now">Browse styles</p>
-          </div>
-        </div>
-
-        <div class="container-ads">
-          <img
-            src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2020/02/curly_hair_white-1.jpg"
-            alt="" class="header__slider-img header__slider-img-left" />
-          <div class="sub-container sub-container-left">
-            <span class="sub-container__ads">Summer '19</span>
-            <h1 class="sub-container__title">
-              Night Summer <br />
-              Dresses
-            </h1>
-            <p class="sub-container__shop-now">Shop Now</p>
-          </div>
-        </div>
-
-        <div class="container-ads">
-          <img
-            src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2020/02/curly_hair_girl-1.jpg"
-            alt="" class="header__slider-img" />
-          <div class="sub-container">
-            <span class="sub-container__ads">50% OFF</span>
-            <h1 class="sub-container__title">
-              New Cocktail <br />
-              Dresses
-            </h1>
-            <p class="sub-container__shop-now">Shop Now</p>
-          </div>
-        </div>
-
-        <div class="button-dot">
-          <span class="dot" onclick="currentSlider(0)"></span>
-          <span class="dot" onclick="currentSlider(1)"></span>
-          <span class="dot" onclick="currentSlider(2)"></span>
-        </div>
-      </div>
-      <!-- End: Content -->
-
-      <!-- Button silde -->
-      <div class="button-slide">
-        <div class="button-slide__pre" onclick="plusSlider(-1)">
-          <i class="ti-angle-left"></i>
-        </div>
-        <div class="button-slide__next" onclick="plusSlider(1)">
-          <i class="ti-angle-right"></i>
-        </div>
-      </div>
-
-      <!-- End: Slide -->
-    </div>
-
-    <!-- End: Header -->
-
-    <!-- App conatiner -->
-    <div class="app__container">
-
-      <div class="app__container-product">
-        <div class="col-3 container__product-item" style="background-image: url(./assets/img/product-1.jpg)">
-          <div class="container__product-sub">
-            <h2 class="container__product-title-content">
-              Button <br />
-              Up <br />
-              Shirts
-            </h2>
-            <a href="#" class="container__product-content-button">Buy <br> Now</a>
-          </div>
-        </div>
-
-        <div class="col-3 container__product-item " style="background-image: url(./assets/img/product-2.jpg)">
-          <div class="container__product-sub">
-            <h2 class="container__product-title-content">
-              Choose <br />
-              your <br />
-              price
-            </h2>
-            <a href="#" class="container__product-content-button">Choose <br> Yours</a>
-          </div>
-        </div>
-
-        <div class="col-3 container__product-item-color container__product-item">
-          <div class="container__product-sub">
-            <h2 class="container__product-title-content title-content-sale">Clearance Sale</h2>
-            <p class="container__product-content-sale content-sale ">
-              Up to 70% Off & Free Shipping
-            </p>
-            <a href="#" class="container__product-content-button button-sale ">Browse sales</a>
-          </div>
-        </div>
-
-        <!-- Best Selling -->
-        <div class="app__container-selling">
-          <div class="">
-            <h4 class="app__container-title">
-              Best Selling
-            </h4>
-            <p class="app__container-introduce">
-              Bushwick blue bottle photo booth copper mug marfa craft beer pour-over swag <br> subway tile organic cloud
-              bread.
-            </p>
-            <div class="selling ">
-              <div class="container-selling">
-                <div class=" container__selling-item">
-                  <img src="./assets/img/selling1a.jpg" alt="" class="container__selling-img1">
-                  <img src="./assets/img/selling1b.jpg" alt="" class="container__selling-img2">
-                  <ul class="container__selling-interactive-list">
-                    <li class="container__selling-interactive-item">
-                      <a href="" class="container__selling-interactive-link">
-                        <i class="container__selling-interactive-icon ti-heart  "></i>
-                      </a>
-                      <span class="selling-interactive-item-content">Add to Wishlis</span>
+    <div class="app">
+        <div class="header">
+            <div class="header__contact hide-on-mobile-tablet">
+                <ul class="header__contact-list">
+                    <li class="header__conatct-item">
+                        <a href="" class="header__contact-item-link">
+                            <i class="header__contact-icon ti-facebook"></i>
+                        </a>
                     </li>
-                    <li class="container__selling-interactive-item">
-                      <a href="" class="container__selling-interactive-link">
-                        <i class="container__selling-interactive-icon interactive-icon-not-hover ti-bag"></i>
-                      </a>
-                      <span class="selling-interactive-item-content">View Product</span>
+                    <li class="header__conatct-item">
+                        <a href="" class="header__contact-item-link">
+                            <i class="header__contact-icon ti-twitter-alt"></i>
+                        </a>
                     </li>
-                    <li class="container__selling-interactive-item">
-                      <a href="" class="container__selling-interactive-link">
-                        <i
-                          class="container__selling-interactive-icon interactive-icon-not-hover ti-arrows-corner icon-rotate"></i>
-                      </a>
-                      <span class="selling-interactive-item-content">Quick View</span>
+                    <li class="header__conatct-item">
+                        <a href="" class="header__contact-item-link">
+                            <i class="header__contact-icon ti-instagram"></i>
+                        </a>
                     </li>
-                  </ul>
-                </div>
-                <div class="selling-caption">
-                  <a href="#" class="container__selling-name">Cashmere Tank + Bag</a>
-                  <p class="container__selling-price">$39.00 – $98.00</p>
-                </div>
-              </div>
 
-              <div class=" container-selling">
-                <div class=" container__selling-item">
-                  <img src="./assets/img/selling2a.jpg" alt="" class="container__selling-img1">
-                  <img src="./assets/img/selling2b.jpg" alt="" class="container__selling-img2">
-                  <ul class="container__selling-interactive-list">
-                    <li class="container__selling-interactive-item">
-                      <a href="" class="container__selling-interactive-link">
-                        <i class="container__selling-interactive-icon ti-heart  "></i>
-                      </a>
-                      <span class="selling-interactive-item-content">Add to Wishlis</span>
+                    <li class="header__conatct-item">
+                        <a href="" class="header__contact-item-link">
+                            About Us
+                        </a>
                     </li>
-                    <li class="container__selling-interactive-item">
-                      <a href="" class="container__selling-interactive-link">
-                        <i class="container__selling-interactive-icon interactive-icon-not-hover ti-bag"></i>
-                      </a>
-                      <span class="selling-interactive-item-content">View Product</span>
+
+                    <li class="header__conatct-item">
+                        <a href="" class="header__contact-item-link">
+                            Wishlist
+                        </a>
                     </li>
-                    <li class="container__selling-interactive-item">
-                      <a href="" class="container__selling-interactive-link">
-                        <i
-                          class="container__selling-interactive-icon interactive-icon-not-hover ti-arrows-corner icon-rotate"></i>
-                      </a>
-                      <span class="selling-interactive-item-content">Quick View</span>
+
+                    <li class="header__conatct-item">
+                        <a href="" class="header__contact-item-link">
+                            Contact
+                        </a>
                     </li>
-                  </ul>
-                </div>
-                <div class="selling-caption">
-                  <a href="#" class="container__selling-name">Micro Form Bag</a>
-                  <p class="container__selling-price">$98.00</p>
-                </div>
-              </div>
 
-              <div class=" container-selling ">
-                <div class=" container__selling-item ">
-                  <img src="./assets/img/selling3a.jpg" alt="" class="container__selling-img1">
-                  <img src="./assets/img/selling3b.jpg" alt="" class="container__selling-img2">
-                  <p class="product__new">New</p>
-                  <ul class="container__selling-interactive-list">
-                    <li class="container__selling-interactive-item">
-                      <a href="" class="container__selling-interactive-link">
-                        <i class="container__selling-interactive-icon ti-heart  "></i>
-                      </a>
-                      <span class="selling-interactive-item-content">Add to Wishlis</span>
-                    </li>
-                    <li class="container__selling-interactive-item">
-                      <a href="" class="container__selling-interactive-link">
-                        <i class="container__selling-interactive-icon interactive-icon-not-hover ti-bag"></i>
-                      </a>
-                      <span class="selling-interactive-item-content">View Product</span>
-                    </li>
-                    <li class="container__selling-interactive-item">
-                      <a href="" class="container__selling-interactive-link">
-                        <i
-                          class="container__selling-interactive-icon interactive-icon-not-hover ti-arrows-corner icon-rotate"></i>
-                      </a>
-                      <span class="selling-interactive-item-content">Quick View</span>
-                    </li>
-                  </ul>
-                </div>
-                <div class="selling-caption">
-                  <a href="#" class="container__selling-name">Cashmere Tank</a>
-                  <p class="container__selling-price">$39.00 – $98.00</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide testimoonials -->
-
-
-        <div class="container__testimoonials">
-          <div>
-
-            <div class="container__testimoonials-item">
-              <h2 class="container__testimoonials-title">Testimoonials</h2>
-              <p class="container__testimoonials-text">Disrupt single-origin coffee hammock quinoa cronut jean shorts
-                coloring book brooklyn seitan authentic craft beer.</p>
-              <div class="container__testimoonials-staff">
-                <img
-                  src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/05/woman-abstract-b1-150x150.jpg"
-                  alt="" class="container__testimoonials-staff-img">
-                <div class="container__testimoonials-staff-info">
-                  <p class="container__testimoonials-staff-name">Sarah Connor</p>
-                  <p class="container__testimoonials-staff-position">Waitress</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="container__testimoonials-item hide">
-              <h2 class="container__testimoonials-title">Testimoonials</h2>
-              <p class="container__testimoonials-text">Pok pok flannel drinking vinegar, succulents lumbersexual XOXO
-                artisan. Succulents tousled drinking vinegar, cardigan.</p>
-              <div class="container__testimoonials-staff">
-                <img
-                  src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/04/men-shirt-a1-150x150.jpg"
-                  alt="" class="container__testimoonials-staff-img">
-                <div class="container__testimoonials-staff-info">
-                  <p class="container__testimoonials-staff-name">Calvin Reeves</p>
-                  <p class="container__testimoonials-staff-position">Actor</p>
-                </div>
-              </div>
-            </div>
-            <div class="button-dot button-dot-testimoonials">
-              <span class="dot" onclick="currentSlider(0)"></span>
-              <span class="dot" onclick="currentSlider(1)"></span>
-            </div>
-          </div>
-
-          <div class="button-slide">
-            <div class="button-slide__pre-testimoonials">
-              <i class="ti-angle-left"></i>
-            </div>
-            <div class="button-slide__next-testimoonials">
-              <i class="ti-angle-right"></i>
-            </div>
-          </div>
-        </div>
-
-        <!-- Container-trending -->
-
-        <div class="app__container-trending">
-          <div class="">
-            <h4 class="app__container-title">
-              Trending Outfits
-            </h4>
-            <p class="app__container-introduce">
-              Intelligentsia migas next level 90s woke ramps. Glossier vape celiac tumeric keffiyeh.
-            </p>
-            <div class="trending">
-              <div class="container__trending-item">
-                <img src="./assets/img/selling1a.jpg" alt="" class="container__trending-img1">
-                <img src="./assets/img/selling1b.jpg" alt="" class="container__trending-img2">
-                <ul class="container__trending-interactive-list">
-                  <li class="container__trending-interactive-item">
-                    <a href="" class="container__trending-interactive-link">
-                      <i class="container__trending-interactive-icon ti-heart  "></i>
-                    </a>
-                  </li>
-                  <li class="container__trending-interactive-item interactive-item-borded">
-                    <a href="" class="container__trending-interactive-link">
-                      <i class="container__trending-interactive-icon ti-bag"></i>
-                    </a>
-                  </li>
-                  <li class="container__trending-interactive-item">
-                    <a href="" class="container__trending-interactive-link">
-                      <i class="container__trending-interactive-icon ti-arrows-corner icon-rotate"></i>
-                    </a>
-                  </li>
                 </ul>
-              </div>
-              <div class="trending-caption">
-                <a href="#" class="container__selling-name">Cashmere Tank + Bag</a>
-                <p class="container__selling-price">$39.00 – $98.00</p>
-              </div>
-            </div>
 
-            <div class="trending">
-              <div class="container__trending-item">
-                <img src="./assets/img/selling2a.jpg" alt="" class="container__trending-img1">
-                <img src="./assets/img/selling2b.jpg" alt="" class="container__trending-img2">
-                <ul class="container__trending-interactive-list">
-                  <li class="container__trending-interactive-item">
-                    <a href="" class="container__trending-interactive-link">
-                      <i class="container__trending-interactive-icon ti-heart  "></i>
-                    </a>
-                  </li>
-                  <li class="container__trending-interactive-item interactive-item-borded">
-                    <a href="" class="container__trending-interactive-link">
-                      <i class="container__trending-interactive-icon ti-bag"></i>
-                    </a>
-                  </li>
-                  <li class="container__trending-interactive-item">
-                    <a href="" class="container__trending-interactive-link">
-                      <i class="container__trending-interactive-icon ti-arrows-corner icon-rotate"></i>
-                    </a>
-                  </li>
+                <ul class="header__contact-list">
+                    <li class="header__conatct-item header__conatct-language">
+                        <a href="" class="header__contact-item-language ">
+                            English
+                            <i class="header__contact-icon-arrow ti-angle-down"></i>
+                        </a>
+                        <ul class="header__contact-subnav">
+                            <li class="header__contact-subnav-item">
+                                <a href="#" class="header__contact-subnav-item-link">Français</a>
+                            </li>
+                            <li class="header__contact-subnav-item">
+                                <a href="#" class="header__contact-subnav-item-link">Deutsch</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
-              </div>
-              <div class="trending-caption">
-                <a href="#" class="container__selling-name">Micro Form Bag</a>
-                <p class="container__selling-price">$98.00</p>
-              </div>
-            </div>
 
-            <div class="trending">
-              <div class="container__trending-item">
-                <img src="./assets/img/selling3a.jpg" alt="" class="container__trending-img1">
-                <img src="./assets/img/selling3b.jpg" alt="" class="container__trending-img2">
-                <p class="product__new">New</p>
-                <ul class="container__trending-interactive-list">
-                  <li class="container__trending-interactive-item">
-                    <a href="" class="container__trending-interactive-link">
-                      <i class="container__trending-interactive-icon ti-heart  "></i>
-                    </a>
-                  </li>
-                  <li class="container__trending-interactive-item interactive-item-borded">
-                    <a href="" class="container__trending-interactive-link">
-                      <i class="container__trending-interactive-icon ti-bag"></i>
-                    </a>
-                  </li>
-                  <li class="container__trending-interactive-item">
-                    <a href="" class="container__trending-interactive-link">
-                      <i class="container__trending-interactive-icon ti-arrows-corner icon-rotate"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="trending-caption">
-                <a href="#" class="container__selling-name">Cashmere Tank</a>
-                <p class="container__selling-price">$39.00</p>
-              </div>
             </div>
+            <input type="checkbox" id="header__menu-input" class="nav-input">
+            <input type="checkbox" id="header__menu-bag" class="cart-input">
+            <input type="checkbox" id="header__menu-search" class="search-input">
+            <input type="checkbox" id="menu__mobile--tablet-check" class="menu__mobile--tablet-input">
 
-            <div class="trending">
-              <div class="container__trending-item">
-                <img src="./assets/img/trending4.jpg" alt="" class="container__trending-img1">
-                <img src="./assets/img/trending4b.jpg" alt="" class="container__trending-img2">
-                <p class="product__sale">-25%</p>
-                <ul class="container__trending-interactive-list">
-                  <li class="container__trending-interactive-item">
-                    <a href="" class="container__trending-interactive-link">
-                      <i class="container__trending-interactive-icon ti-heart  "></i>
-                    </a>
-                  </li>
-                  <li class="container__trending-interactive-item interactive-item-borded">
-                    <a href="" class="container__trending-interactive-link">
-                      <i class="container__trending-interactive-icon ti-bag"></i>
-                    </a>
-                  </li>
-                  <li class="container__trending-interactive-item">
-                    <a href="" class="container__trending-interactive-link">
-                      <i class="container__trending-interactive-icon ti-arrows-corner icon-rotate"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="trending-caption">
-                <a href="#" class="container__selling-name">Hang Out Hoodie</a>
-                <span class="container__selling-prices">
-                  <p class="container__selling-price">$36.00</p>
-                  <p class="container__selling-price-old">$48.00</p>
-              </div>
-              </span>
-            </div>
-          </div>
-        </div>
-        <!-- Visit -->
-        <div class="container__visit">
-          <div>
-            <h4 class="app__container-title">
-              Visit Us
-            </h4>
-            <p class="app__container-introduce">
-              Stop by our stores to learn the stories behind our products, get a personal styling session, or shop the
-              latest in person. See our <a class="header__navbar-item-link header__navbar-item-link-underline"
-                href="">store locations</a>.
-            </p>
-            <div class="container-img-visit">
-              <img src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2020/01/boutique.jpg"
-                alt="" class="container__visit-img">
-            </div>
-          </div>
+            <label for="header__menu-search" class="header__menu-bag-overlay">
+            </label>
+            <label for="header__menu-bag" class="header__menu-bag-overlay">
+            </label>
+            <label for="menu__mobile--tablet-check" class="header__menu-bag-overlay">
+            </label>
 
-        </div>
-
-        <!-- Footer -->
- 
-        <div id="footer">
-          <div class="footer__info">
-            <div class="">
-              <div class="footer-content">
-                <div class="footer-list">
-                  <h6 class="footer__info-title">COMPANY</h6>
-                  <ul class="footer__info--list">
-                    <li class="footer__info--list-item">
-                      <a href="" class="footer__info--list-item-link">
-                        About Us
-                      </a>
-                    </li>
-                    <li class="footer__info--list-item">
-                      <a href="" class="footer__info--list-item-link">
-                        Contact
-                      </a>
-                    </li>
-                    <li class="footer__info--list-item">
-                      <a href="" class="footer__info--list-item-link">
-                        Store Locations
-                      </a>
-                    </li>
-                    <li class="footer__info--list-item">
-                      <a href="" class="footer__info--list-item-link">
-                        Careers
-                      </a>
-                    </li>
-                  </ul>
+            <div class="header__menu-sreach">
+                <div class="header__menu-sreach-close">
+                    <label for="header__menu-search" href="#" class="header__menu-sreach-close-link">
+                        <i class="nav__bang-sreach-close-icon ti-close"></i>
+                    </label>
                 </div>
 
-                <div class="footer-list">
-                  <h6 class="footer__info-title">HELP</h6>
-                  <ul class="footer__info--list">
-                    <li class="footer__info--list-item">
-                      <a href="" class="footer__info--list-item-link">
-                        Order Tracking
-                      </a>
-                    </li>
-                    <li class="footer__info--list-item">
-                      <a href="" class="footer__info--list-item-link">
-                        FAQ’s
-                      </a>
-                    </li>
-                    <li class="footer__info--list-item">
-                      <a href="" class="footer__info--list-item-link">
-                        Privacy Policy
-                      </a>
-                    </li>
-                    <li class="footer__info--list-item">
-                      <a href="" class="footer__info--list-item-link">
-                        Terms & Conditions
-                      </a>
-                    </li>
-                  </ul>
+                <div class="header__menu-sreach-nav">
+                    <div class="header__menu-sreach-bar-all">
+                        <div class="header__menu-sreach-bar">
+                            <i class="header__menu-sreach-icon ti-search"></i>
+                            <input type="text" class="header__menu-sreach-input" placeholder="Search product...">
+                        </div>
+                        <div class="header__menu-sreach-category">
+                            <select class="header__menu-sreach-category-select" >
+                                <option value="0">All Categories</option>
+                                <option value="1">Men</option>
+                                <option value="2">Speakers</option>
+                                <option value="3">Women</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="footer-list footer-store">
-                  <h6 class="footer__info-title">STORE</h6>
-                  <ul class="footer__info--list">
-                    <li class="footer__info--list-item">
-                      <a href="" class="footer__info--list-item-link">
-                        Women
-                      </a>
-                    </li>
-                    <li class="footer__info--list-item">
-                      <a href="" class="footer__info--list-item-link">
-                        Men
-                      </a>
-                    </li>
-                    <li class="footer__info--list-item">
-                      <a href="" class="footer__info--list-item-link">
-                        Speakers
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="footer-list footer-follow-us">
-                  <h6 class="footer__info-title">FOLLOW US</h6>
-                  <p href="" class="footer__info--list-item-link">
-                    And get Free Shipping on all your orders!
-                  </p>
-                  <ul class="footer__info--list-icon">
-                    <li class="footer__info--list-icon-item">
-                      <a href="" class="footer__info-link-icon">
-                        <i class="footer__info-icon ti-facebook"></i>
-                      </a>
-                    </li>
-                    <li class="footer__info--list-icon-item">
-                      <a href="" class="footer__info-link-icon">
-                        <i class="footer__info-icon ti-twitter-alt"></i>
-                      </a>
-                    </li>
-                    <li class="footer__info--list-icon-item">
-                      <a href="" class="footer__info-link-icon">
-                        <i class="footer__info-icon ti-instagram"></i>
-                      </a>
-                    </li>
-                    <li class="footer__info--list-icon-item">
-                      <a href="" class="footer__info-link-icon">
-                        <i class="footer__info-icon ti-pinterest-alt"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-
-              <h4 class="app__container-title ">
-                Sign up now & get 10% off
-              </h4>
-              <p class="app__container-introduce">
-                Be the first to know about our new arrivals and exclusive offers.
-              </p>
-              <div class="footer__info-form-sign-up">
-                <input type="text" class="footer__info-form-email-input" placeholder="Your email address">
-                <a href="" class="footer__info-form-sumbit">Sign up</a>
-              </div>
             </div>
-          </div>
+
+            
+
+            <div class="menu__mobile--tablet l-0">
+                <div class="menu__mobile--tablet-header">
+                    <label for="menu__mobile--tablet-check" href="#" class="mobile--tablet__link-close">
+                        <i class="mobile--tablet__close-icon ti-close"></i>
+                    </label>
+                </div>
+                <div class="menu__mobile--tablet-body">
+
+                    <div class="menu__mobile--tablet-body-top">
+                        <div class="menu__mobile--tablet-sreach">
+                            <i class="menu__mobile--tablet-sreach-icon ti-search"></i>
+                            <input type="text" class="menu__mobile--tablet-sreach-input" placeholder="Sreach products...">
+                        </div>
+    
+                        <div class="menu__mobile--tablet-nav">
+                            <a href="" class="menu__mobile--tablet-content">MAIN</a>
+                            <i class="menu__mobile--tablet-main-icon ti-angle-right"></i>
+                        </div>
+                        <div class="menu__mobile--tablet-nav">
+                            <a href="" class="menu__mobile--tablet-content">SHOP</a>
+                            <i class="menu__mobile--tablet-main-icon ti-angle-right"></i>
+                        </div>
+                        <div class="menu__mobile--tablet-nav">
+                            <a href="" class="menu__mobile--tablet-content">PRODUCT</a>
+                            <i class="menu__mobile--tablet-main-icon ti-angle-right"></i>
+                        </div>
+                        <div class="menu__mobile--tablet-nav">
+                            <a href="" class="menu__mobile--tablet-content">PAGES</a>
+                            <i class="menu__mobile--tablet-main-icon ti-angle-right"></i>
+                        </div>
+                        <div class="menu__mobile--tablet-nav">
+                            <a href="" class="menu__mobile--tablet-content">JOURNAL</a>
+                            <i class="menu__mobile--tablet-main-icon ti-angle-right"></i>
+                        </div>
+                    </div>
+                    
+
+                    <div class="menu__mobile--tablet-body-bottom">
+                        <div class="menu__mobile--tablet-subnav">
+                            <a class="menu__mobile--tablet-subnav-content">Login</a>
+                            <i class="menu__mobile--tablet-subnav-icon ti-lock"></i>
+                        </div>
+
+                        <div class="menu__mobile--tablet-subnav">
+                            <a class="menu__mobile--tablet-subnav-content">Cart</a>
+                            <i class="menu__mobile--tablet-subnav-icon ti-bag"></i>
+                        </div>
+
+                        <div class="menu__mobile--tablet-subnav">
+                            <a class="menu__mobile--tablet-subnav-content">Wishlist</a>
+                            <i class="menu__mobile--tablet-subnav-icon ti-heart"></i>
+                        </div>
+
+                        <div class="menu__mobile--tablet-subnav">
+                            <a class="menu__mobile--tablet-subnav-content">Langue</a>
+                            <i class="menu__mobile--tablet-subnav-icon ti-world"></i>
+                        </div>
+
+                        <i class="menu__mobile--tablet-subnav-icon ti-facebook"></i>
+                        <i class="menu__mobile--tablet-subnav-icon ti-twitter-alt"></i>
+                        <i class="menu__mobile--tablet-subnav-icon ti-instagram"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__menu-nav-bag">
+                <div class="nav__bang-header">
+                    <span class="nav__bang-header-cart">Cart 2</span>
+                    <label for="header__menu-bag" class="nav__bag-header-link">
+                        <i class="nav__bang-header-icon ti-close"></i>
+                    </label>
+                </div>
+            
+                <div class="shopping__cart-container">
+                    <ul class="nav__bag-list">
+                        <li class="nav__bag-list-item">
+                            <div class="nav__bag-list-item-left">
+                                <img src="https://goya.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/05/woman-abstract-a1-150x150.jpg" alt="">
+                            </div>
+                            <div class="nav__bag-list-item-right">
+                                <div class="nav__bag--item-name">
+                                    <a href="" class="nav__bag--item-name-link">
+                                        Abstract Print Cotton Blouse
+                                    </a>
+                                    <i class="ti-close nav__bag--item-name-close"></i>
+                                </div>
+                                <div class="nav__bag--item-pricing">
+                                    <div class="nav__bag--item-quantity">
+                                        <a href="#" class="minus">
+                                            <i class=" ti-minus"></i>
+                                        </a>
+                                        
+                                        <input type="number" class="nav__bag--item-quantity-number" maxlength="1" value="1" placeholder="0">
+                                        <a href="#" class="plus">
+                                            <i class=" ti-plus"></i>
+                                        </a>
+                                    </div>
+    
+                                    <p class="nav__bag--item-price">
+                                       $39.00
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+    
+                        <li class="nav__bag-list-item">
+                            <div class="nav__bag-list-item-left">
+                                <img src="https://goya.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2020/01/woman-microbag-a1-150x150.jpg" alt="">
+                            </div>
+                            <div class="nav__bag-list-item-right">
+                                <div class="nav__bag--item-name">
+                                    <a href="" class="nav__bag--item-name-link">
+                                        Micro Form Bag
+                                    </a>
+                                    <i class="ti-close nav__bag--item-name-close"></i>
+                                </div>
+                                <div class="nav__bag--item-pricing">
+                                    <div class="nav__bag--item-quantity">
+                                        <a href="#" class="minus">
+                                            <i class=" ti-minus"></i>
+                                        </a>
+                                        
+                                        <input type="number" class="nav__bag--item-quantity-number"  maxlength="2" value="1" placeholder="0">
+                                        <a href="#" class="plus">
+                                            <i class=" ti-plus"></i>
+                                        </a>
+                                    </div>
+    
+                                    <p class="nav__bag--item-price">
+                                       $98.00
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="nav__bag-cart-panel">
+                        <div class="nav__bag-cart-panel-total">
+                            <p class="nav__bag-total-text">Subtotal:</p>
+                            <p class="nav__bag-total-price">$137.00</p>
+                        </div>
+                        <a href="" class="nav__bag-view-cart">View cart</a>
+                        <a href="" class="nav__bag-check-out">Checkout</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="header__navbar-scroll" class="header__navbar hide-on-mobile-tablet">
+                <div class="header__navbar-left">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <label for="header__menu-input" class="header__navbar-item-link">
+                                <i class="header__navbar-icon ti-menu"></i>
+                            </label>
+                        </li>
+    
+                        <li  onmouseover="mouseOverMain()" onmouseout="mouseOutMain()" class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
+                                Main
+                            </a>
+                        </li>
+
+                        <li onmouseover="mouseOverShop()" onmouseout="mouseOutShop()"  class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
+                                Shop
+                            </a>
+                        </li>
+
+                        <li onmouseover="mouseOverProduct()" onmouseout="mouseOutProduct()" class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
+                                Product
+                            </a>
+                        </li>
+
+                        <li onmouseover="mouseOverPages()" onmouseout="mouseOutPages()" class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
+                                Pages
+                            </a>
+                        </li>
+
+                        <li onmouseover="mouseOverJournal()" onmouseout="mouseOutJournal()"  class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
+                                Journal
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                
+                <div class="header__navbar-center">
+                    <img src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/07/logo-light.png" class="header__navbar-brand-logo" alt="">
+                </div>
+                
+                <div class="header__navbar-right">
+                    <ul class="header__navbar-list">
+
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link header__navbar-item-link-underline">
+                                My Account
+                            </a>
+                        </li>
+
+                        <li class="header__navbar-item">
+                            <label for="header__menu-search" href="#" class="header__navbar-item-link">
+                                <i class="header__navbar-icon ti-search"></i>
+                            </label>
+                        </li>
+    
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon ti-heart"></i>
+                            </a>
+                        </li>
+
+                        <li class="header__navbar-item">
+                            <label for="header__menu-bag" href="#" class="header__navbar-item-link">
+                                <i class="header__navbar-icon ti-bag"></i>
+                            </label>
+                            <span class="header__navbar-item-notice">2</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Sub nav -->
+
+                <!-- Main Subnav -->
+                <div onmouseover="mouseOverMain()" onmouseout="mouseOutMain()" class="header__navbar-item-subnav header__navbar-main">
+                    <div class="grid__row-header">
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">HOME STYLE</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            V1 - Classic
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            V2 - Full Screen Slider
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link ">
+                                            V3 - New Season
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            V4 - Product Landing
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            V5 - Featured Video
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">GLOBAL OPTIONS</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Page Load Transition
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Modal Popup
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link ">
+                                            Campaign Bar
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Top Bar – Disabled
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Header – Regular Width
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Mobile/Full Menu – Dark
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">HEADER LAYOUTS</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Header v1
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Header v2
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Header v3
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Header v4
+                                        </a>
+                                    </li> 
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Header v5
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Header v6
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Header v7
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Header v8
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Header v9
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">OTHER DEMOS</h3>
+                                
+                                <img class="subnav-category-img" src="./assets/img/subnav-img.jpg" alt="">
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Decoration
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- End Main Subnav -->
+
+                <!-- Shop Subnav -->
+                <div onmouseover="mouseOverShop()" onmouseout="mouseOutShop()" class="header__navbar-item-subnav header__navbar-shop">
+                    <div class="grid__row-header">
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">CATALOG</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Style 1
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Style 2
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link ">
+                                            Style 3
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Style 4
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <h3 class="subnav-category">CATALOG</h3>
+
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Top
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Sidebar
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link ">
+                                            Slide Out
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">CATALOG OPTIONS</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Darker Background
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Width – Regular
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link ">
+                                            Animation – Zoom Only
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Load More – Scroll
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <h3 class="subnav-category">SHOP PAGES</h3>
+
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            My account – 1 Col
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Wishlist
+                                        </a>
+                                    </li>
+                                
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">CART</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Shopping Cart
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <h3 class="subnav-category">MINICART</h3>
+
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Top
+                                        </a>
+                                    </li>
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Side
+                                        </a>
+                                    </li>
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Dark
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">CHECKOUT</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Modern
+                                        </a>
+                                    </li>
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Multi Step
+                                        </a>
+                                    </li>
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Classic
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- End Shop Subnav -->
+
+                <!-- Product Subnav -->
+                <div onmouseover="mouseOverProduct()" onmouseout="mouseOutProduct()" class="header__navbar-item-subnav header__navbar-product">
+                    <div class="grid__row-header">
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">PRODUCT TYPES</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Simple
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Variable
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link ">
+                                            External
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Grouped
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">PRODUCT STYLE</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Showcase Style
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Background – Light
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link ">
+                                            Background – Dark
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Full Width
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Header – Regular Width
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            No Padding
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">PRODUCT GALLERY</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Carousel
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Single Column
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Grid
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Image Zoom
+                                        </a>
+                                    </li> 
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">PRODUCT DETAILS</h3>
+                                
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Tabs
+                                        </a>
+                                    </li>
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Accordion
+                                        </a>
+                                    </li>
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Vertical
+                                        </a>
+                                    </li>
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Extended Description
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- End Product Subnav -->
+
+                <!-- Pages Subnav -->
+                <div onmouseover="mouseOverPages()" onmouseout="mouseOutPages()" class="header__navbar-item-subnav header__navbar-pages">
+                    <div class="grid__row-header">
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">SAMPLE PAGES</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            About Us
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Store Locations
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link ">
+                                            FAQ’s
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Careers
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">LOOKBOOK</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            List
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Grid
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link ">
+                                            Masonry
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">LOOKBOOK SINGLE</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Parallax Header
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Featured Slider
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Regular Title
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Background Color
+                                        </a>
+                                    </li> 
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Spring Blossom
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Natural Colors
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- End Pages Subnav -->
+
+                <!-- Journal Subnav -->
+                <div onmouseover="mouseOverJournal()" onmouseout="mouseOutJournal()" class="header__navbar-item-subnav header__navbar-journal">
+                    <div class="grid__row-header">
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">LISTING</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Classic
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Overlay
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link ">
+                                            Masonry
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Cards
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Grid
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            List
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Blog + Sidebar
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">SINGLE POST</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Display Featured
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Featured Parallax
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link ">
+                                            Slider Gallery
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Featured Video
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Header – Regular Width
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            No Featured
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="grid__column-5">
+                            <div class="header__subnav-home">
+                                <h3 class="subnav-category">NAVIGATION</h3>
+                                <ul class="subnav-category-list">
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Simple
+                                        </a>
+                                    </li>
+
+                                    <li class="subnav-category-item">
+                                        <a href="" class="subnav-category-item-link">
+                                            Image Background
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Journal Subnav -->
+            </div>
+
+            <!-- NavBar Tablet and Mobile -->
+            <div class="header-mobile-tablet">
+                <label for="menu__mobile--tablet-check" href="#" class="header-mobile-tablet__icon-link">
+                    <i class="ti-menu"></i>
+                </label>
+                <a href="#" class="header-mobile-tablet__icon-link">
+                    <img src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/07/logo-light.png" alt="" class="header-mobile-tablet__logo-img">
+                </a>
+                <label for="header__menu-bag" href="" class="header-mobile-tablet__icon-link">
+                    <i class="ti-bag"></i>
+                </label>
+            </div>
+
+            <div class="header__menu-overlay hide-on-mobile-tablet">
+                <div class="grid wide">
+                    <label for="header__menu-input" class="header__menu--close-link">
+                        <i class="header__menu--close-icon ti-close"></i>
+                    </label>
+                    <div class="row">
+                        <div class="grid__column-menu-left">
+                            <ul class="header__menu--list">
+                                <li class="header__menu--list-item">
+                                    <div class="header__menu--list-block">
+                                        <a href="" class="header__menu--list-item-link">
+                                            MAIN
+                                        </a>
+                                        <i class="header__menu--list-icon ti-angle-right"></i>
+                                    </div>
+                                </li>
+                                <li class="header__menu--list-item">
+                                    <div class="header__menu--list-block">
+                                        <a href="" class="header__menu--list-item-link">
+                                            SHOP
+                                        </a>
+                                        <i class="header__menu--list-icon ti-angle-right"></i>
+                                    </div>
+                                </li>
+                                <li class="header__menu--list-item">
+                                    <div class="header__menu--list-block">
+                                        <a href="" class="header__menu--list-item-link">
+                                            PRODUCT
+                                        </a>
+                                        <i class="header__menu--list-icon ti-angle-right"></i>
+                                    </div>
+                                </li>
+                                <li class="header__menu--list-item">
+                                    <div class="header__menu--list-block">
+                                        <a href="" class="header__menu--list-item-link">
+                                            PAGES
+                                        </a>
+                                        <i class="header__menu--list-icon ti-angle-right"></i>
+                                    </div>
+                                </li>
+                                <li class="header__menu--list-item">
+                                    <div class="header__menu--list-block">
+                                        <a href="" class="header__menu--list-item-link">
+                                            JOURNAL
+                                        </a>
+                                        <i class="header__menu--list-icon ti-angle-right"></i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="grid__column-menu-right">
+                            <h3 class="grid__column-menu-right-category">CATALOG</h3>
+                            <ul class="grid__column-menu-right-list">
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Style 1
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Style 2
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Style 3
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Style 4
+                                    </a>
+                                </li>
+                            </ul>
+                            <h3 class="grid__column-menu-right-category">FILTERS</h3>
+
+                            <ul class="grid__column-menu-right-list">
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Top
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Sidebar
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Slide Out
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="grid__column-menu-right" >
+                            <h3 class="grid__column-menu-right-category">CATALOG OPTIONS</h3>
+                            <ul class="grid__column-menu-right-list">
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Darker Background
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Width – Regular
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Animation – Zoom Only
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Load More – Scroll
+                                    </a>
+                                </li>
+                            </ul>
+                            <h3 class="grid__column-menu-right-category">SHOP PAGES</h3>
+
+                            <ul class="grid__column-menu-right-list">
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        My account – 1 Col
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Wishlist
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="grid__column-menu-right">
+                            <h3 class="grid__column-menu-right-category">CART</h3>
+                            <ul class="grid__column-menu-right-list">
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Shopping Cart
+                                    </a>
+                                </li>
+                            </ul>
+                            <h3 class="grid__column-menu-right-category">MINICART</h3>
+
+                            <ul class="grid__column-menu-right-list">
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Top
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Side
+                                    </a>
+                                </li>
+                                <li class="grid__column-menu-right-item">
+                                    <a href="" class="grid__column-menu-right-link">
+                                        Dark
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide -->
+            <div class="slide-1 owl-carousel owl-theme header__container">
+                <div class="">
+                    <img src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2020/02/monigote.jpg" alt="" class="header__slider-img" >
+                    <div class="header__container-ads">
+                        <span class="header__container-ads-sale">Spring/Summer '19</span>
+                        <h1 class="header__container-ads-name-product">The Weekent  <br> Getaway</h1>
+                        <p class="header__container-ads-shop-now">Browse styles</p>
+                    </div>
+                </div>
+                
+                <div class="">
+                    <img src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2020/02/curly_hair_girl-1.jpg" alt="" class="header__slider-img">
+                    <div class="header__container-ads">
+                        <span class="header__container-ads-sale">50% OFF</span>
+                        <h1 class="header__container-ads-name-product">New Cocktail <br> Dresses</h1>
+                        <p class="header__container-ads-shop-now">Shop Now</p>
+                    </div>
+                </div>
+        
+                <div class="">
+                    <img src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2020/02/curly_hair_white-1.jpg" alt="" class="header__slider-img header__slider-img-left">
+                    <div class="header__container-ads header__container-ads-left">
+                        <span class="header__container-ads-sale">Summer '19</span>
+                        <h1 class="header__container-ads-name-product">Night Summer <br> Dresses</h1>
+                        <p class="header__container-ads-shop-now">Shop Now</p>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-nav">
+                <div class="owl-prev-one">
+                    <i class="ti-angle-left"></i>
+                </div>
+                <div class="owl-next-one">
+                    <i class="ti-angle-right"></i>
+                </div>
+            </div>
+            <!-- End Slide -->
+
         </div>
 
-        <div class="footer__policy">
-          <div class="grid wide">
-            <div class="row footer__policy-content">
-              <div class="footer__policy-left">
-                <a href="" class="footer__policy-left-link">Privacy Policy</a>
-                <a href="" class="footer__policy-left-link">Terms & Conditions</a>
-              </div>
+        <div class="app__container">
+            <div class="app__container-product">
+                <div class="grid wide">
+                    <div class="row ">
+                        <div class="col l-4 m-12 c-12 ">
+                            <div class="product-item__wrap">
+                                <div class="container__product-item" style="background-image: url(./assets/img/product-1.jpg);">
+                                    <h2 class="container__product-title-content">Button <br> Up <br> Shirts</h2>
+                                    <a href="#" class="container__product-content-button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
 
-              <div class="footer__policy-right">
-                <p class="footer__policy-right-copyright">
-                  ©2021 Lê Minh Hào
-                </p>
-              </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="product-item__wrap">
+                                <div class="container__product-item" style="background-image: url(./assets/img/product-2.jpg);">
+                                    <h2 class="container__product-title-content">Choose <br> your <br> price</h2>
+                                    <a href="#" class="container__product-content-button">Choose Yours</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-12 c-12">
+                            <div class="product-item__wrap">
+                                <div class="container__product-item-color container__product-item">
+                                    <h2 class="container__product-title-content">Clearance Sale</h2>
+                                    <p class="container__product-content-sale">Up to 70% Off & Free Shipping</p>
+                                    <a href="#" class="container__product-content-button">Browse sales</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <div class="app__container-selling">
+                <div class="grid wide">
+                    <h4 class="app__container-title">
+                        Best Selling
+                    </h4>
+                    <p class="app__container-introduce">
+                        Bushwick blue bottle photo booth copper mug marfa craft beer pour-over swag <br> subway tile organic cloud bread.
+                    </p>
+                    <div class="row ">
+                        <div class="col l-4 m-4 c-12">
+                            <div class="container__selling-item">
+                                <img src="./assets/img/selling1a.jpg" alt="" class="container__selling-img1">
+                                <img src="./assets/img/selling1b.jpg" alt="" class="container__selling-img2">
+                                <ul class="container__selling-interactive-list">
+                                    <li class="container__selling-interactive-item">
+                                        <a href="" class="container__selling-interactive-link">
+                                            <i class="container__selling-interactive-icon ti-heart  "></i>
+                                        </a>
+                                        <span class="selling-interactive-item-content">Add to Wishlis</span>
+                                    </li>
+                                    <li class="container__selling-interactive-item">
+                                        <a href="" class="container__selling-interactive-link">
+                                            <i class="container__selling-interactive-icon interactive-icon-not-hover ti-bag"></i>
+                                        </a>
+                                        <span class="selling-interactive-item-content">View Product</span>
+                                    </li>
+                                    <li class="container__selling-interactive-item">
+                                        <a href="" class="container__selling-interactive-link">
+                                            <i class="container__selling-interactive-icon interactive-icon-not-hover ti-arrows-corner icon-rotate"></i>
+                                        </a>
+                                        <span class="selling-interactive-item-content">Quick View</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="container__selling-name">Cashmere Tank + Bag</a>
+                            <p class="container__selling-price">$39.00 – $98.00</p>
+                        </div>
+
+                        <div class="col l-4 m-4 c-12">
+                            <div class="container__selling-item">
+                                <img src="./assets/img/selling2a.jpg" alt="" class="container__selling-img1">
+                                <img src="./assets/img/selling2b.jpg" alt="" class="container__selling-img2">
+                                <ul class="container__selling-interactive-list">
+                                    <li class="container__selling-interactive-item">
+                                        <a href="" class="container__selling-interactive-link">
+                                            <i class="container__selling-interactive-icon ti-heart  "></i>
+                                        </a>
+                                        <span class="selling-interactive-item-content">Add to Wishlis</span>
+                                    </li>
+                                    <li class="container__selling-interactive-item">
+                                        <a href="" class="container__selling-interactive-link">
+                                            <i class="container__selling-interactive-icon interactive-icon-not-hover ti-bag"></i>
+                                        </a>
+                                        <span class="selling-interactive-item-content">View Product</span>
+                                    </li>
+                                    <li class="container__selling-interactive-item">
+                                        <a href="" class="container__selling-interactive-link">
+                                            <i class="container__selling-interactive-icon interactive-icon-not-hover ti-arrows-corner icon-rotate"></i>
+                                        </a>
+                                        <span class="selling-interactive-item-content">Quick View</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="container__selling-name">Micro Form Bag</a>
+                            <p class="container__selling-price">$98.00</p>
+                        </div>
+
+                        <div class="col l-4 m-4 c-12 container__selling-product-item">
+                            <div class="container__selling-item">
+                                <img src="./assets/img/selling3a.jpg" alt="" class="container__selling-img1">
+                                <img src="./assets/img/selling3b.jpg" alt="" class="container__selling-img2">
+                                <p class="product__new">New</p>
+                                <ul class="container__selling-interactive-list">
+                                    <li class="container__selling-interactive-item">
+                                        <a href="" class="container__selling-interactive-link">
+                                            <i class="container__selling-interactive-icon ti-heart  "></i>
+                                        </a>
+                                        <span class="selling-interactive-item-content">Add to Wishlis</span>
+                                    </li>
+                                    <li class="container__selling-interactive-item">
+                                        <a href="" class="container__selling-interactive-link">
+                                            <i class="container__selling-interactive-icon interactive-icon-not-hover ti-bag"></i>
+                                        </a>
+                                        <span class="selling-interactive-item-content">View Product</span>
+                                    </li>
+                                    <li class="container__selling-interactive-item">
+                                        <a href="" class="container__selling-interactive-link">
+                                            <i class="container__selling-interactive-icon interactive-icon-not-hover ti-arrows-corner icon-rotate"></i>
+                                        </a>
+                                        <span class="selling-interactive-item-content">Quick View</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="container__selling-name">Cashmere Tank</a>
+                            <p class="container__selling-price">$39.00 – $98.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide testimoonials -->
+
+            
+            <div class="container__testimoonials">
+                <div class="slide-2 owl-carousel owl-theme">
+                
+                    <div class="">
+                        <h2 class="container__testimoonials-title">Testimoonials</h2>
+                        <p class="container__testimoonials-text">Disrupt single-origin coffee hammock quinoa cronut jean shorts coloring book brooklyn seitan authentic craft beer.</p>
+                        <div class="container__testimoonials-staff">
+                            <img src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/05/woman-abstract-b1-150x150.jpg" alt="" class="container__testimoonials-staff-img">
+                            <div class="container__testimoonials-staff-info">
+                                <p class="container__testimoonials-staff-name">Sarah Connor</p>
+                                <p class="container__testimoonials-staff-position">Waitress</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="">
+                        <h2 class="container__testimoonials-title">Testimoonials</h2>
+                        <p class="container__testimoonials-text">Pok pok flannel drinking vinegar, succulents lumbersexual XOXO artisan. Succulents tousled drinking vinegar, cardigan.</p>
+                        <div class="container__testimoonials-staff">
+                            <img src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/04/men-shirt-a1-150x150.jpg"  alt="" class="container__testimoonials-staff-img">
+                            <div class="container__testimoonials-staff-info">
+                                <p class="container__testimoonials-staff-name">Calvin Reeves</p>
+                                <p class="container__testimoonials-staff-position">Actor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="owl-nav">
+                    <div class="owl-prev-two">
+                        <i class="ti-angle-left"></i>
+                    </div>
+                    <div class="owl-next-two">
+                        <i class="ti-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container__trending">
+                <div class="grid wide">
+                    <h4 class="app__container-title">
+                        Trending Outfits
+                    </h4>
+                    <p class="app__container-introduce">
+                        Intelligentsia migas next level 90s woke ramps. Glossier vape celiac tumeric keffiyeh.
+                    </p>
+                    <div class="row ">
+                        <div class="col l-3 m-6 c-10 c-o-1">
+                            <div class="container__trending-item">
+                                <img src="./assets/img/selling1a.jpg" alt="" class="container__trending-img1">
+                                <img src="./assets/img/selling1b.jpg" alt="" class="container__trending-img2">
+                                <ul class="container__trending-interactive-list">
+                                    <li class="container__trending-interactive-item">
+                                        <a href="" class="container__trending-interactive-link">
+                                            <i class="container__trending-interactive-icon ti-heart  "></i>
+                                        </a>
+                                    </li>
+                                    <li class="container__trending-interactive-item interactive-item-borded">
+                                        <a href="" class="container__trending-interactive-link">
+                                            <i class="container__trending-interactive-icon ti-bag"></i>
+                                        </a>
+                                    </li>
+                                    <li class="container__trending-interactive-item">
+                                        <a href="" class="container__trending-interactive-link">
+                                            <i class="container__trending-interactive-icon ti-arrows-corner icon-rotate"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="container__selling-name">Cashmere Tank + Bag</a>
+                            <p class="container__selling-price">$39.00 – $98.00</p>
+                        </div>
+
+                        <div class="col l-3 m-6 c-10 c-o-1">
+                            <div class="container__trending-item">
+                                <img src="./assets/img/selling2a.jpg" alt="" class="container__trending-img1">
+                                <img src="./assets/img/selling2b.jpg" alt="" class="container__trending-img2">
+                                <ul class="container__trending-interactive-list">
+                                    <li class="container__trending-interactive-item">
+                                        <a href="" class="container__trending-interactive-link">
+                                            <i class="container__trending-interactive-icon ti-heart  "></i>
+                                        </a>
+                                    </li>
+                                    <li class="container__trending-interactive-item interactive-item-borded">
+                                        <a href="" class="container__trending-interactive-link">
+                                            <i class="container__trending-interactive-icon ti-bag"></i>
+                                        </a>
+                                    </li>
+                                    <li class="container__trending-interactive-item">
+                                        <a href="" class="container__trending-interactive-link">
+                                            <i class="container__trending-interactive-icon ti-arrows-corner icon-rotate"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="container__selling-name">Micro Form Bag</a>
+                            <p class="container__selling-price">$98.00</p>
+                        </div>
+
+                        <div class="col l-3 m-6 c-10 c-o-1">
+                            <div class="container__trending-item">
+                                <img src="./assets/img/selling3a.jpg" alt="" class="container__trending-img1">
+                                <img src="./assets/img/selling3b.jpg" alt="" class="container__trending-img2">
+                                <p class="product__new">New</p>
+                                <ul class="container__trending-interactive-list">
+                                    <li class="container__trending-interactive-item">
+                                        <a href="" class="container__trending-interactive-link">
+                                            <i class="container__trending-interactive-icon ti-heart  "></i>
+                                        </a>
+                                    </li>
+                                    <li class="container__trending-interactive-item interactive-item-borded">
+                                        <a href="" class="container__trending-interactive-link">
+                                            <i class="container__trending-interactive-icon ti-bag"></i>
+                                        </a>
+                                    </li>
+                                    <li class="container__trending-interactive-item">
+                                        <a href="" class="container__trending-interactive-link">
+                                            <i class="container__trending-interactive-icon ti-arrows-corner icon-rotate"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="container__selling-name">Cashmere Tank</a>
+                            <p class="container__selling-price">$39.00</p>
+                        </div>
+
+                        <div class="col l-3 m-6 c-10 c-o-1">
+                            <div class="container__trending-item">
+                                <img src="./assets/img/trending4.jpg" alt="" class="container__trending-img1">
+                                <img src="./assets/img/trending4b.jpg" alt="" class="container__trending-img2">
+                                <p class="product__sale">-25%</p>
+                                <ul class="container__trending-interactive-list">
+                                    <li class="container__trending-interactive-item">
+                                        <a href="" class="container__trending-interactive-link">
+                                            <i class="container__trending-interactive-icon ti-heart  "></i>
+                                        </a>
+                                    </li>
+                                    <li class="container__trending-interactive-item interactive-item-borded">
+                                        <a href="" class="container__trending-interactive-link">
+                                            <i class="container__trending-interactive-icon ti-bag"></i>
+                                        </a>
+                                    </li>
+                                    <li class="container__trending-interactive-item">
+                                        <a href="" class="container__trending-interactive-link">
+                                            <i class="container__trending-interactive-icon ti-arrows-corner icon-rotate"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="container__selling-name">Hang Out Hoodie</a>
+                            <span class="container__selling-prices">
+                                <p class="container__selling-price">$36.00</p>
+                                <p class="container__selling-price-old">$48.00</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container__visit">
+                <div class="grid wide">
+                    <h4 class="app__container-title">
+                        Visit Us
+                    </h4>
+                    <p class="app__container-introduce">
+                        Stop by our stores to learn the stories behind our products, get a personal styling session, or shop the latest in person. See our store locations.
+                    </p>
+                    <img src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2020/01/boutique.jpg" alt="" class="container__visit-img">
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
+
+        <div class="footer">
+            <div class="footer__info">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-3 m-6 c-5 c-o-1">
+                            <h6 class="footer__info-title">COMPANY</h6>
+                            <ul class="footer__info--list">
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Contact
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Store Locations
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Careers
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col l-3 m-6 c-5">
+                            <h6 class="footer__info-title">HELP</h6>
+                            <ul class="footer__info--list">
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Order Tracking
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        FAQ’s
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Terms & Conditions
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col l-3 m-6 c-5 c-o-1">
+                            <h6 class="footer__info-title">STORE</h6>
+                            <ul class="footer__info--list">
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Women
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Men
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-item">
+                                    <a href="" class="footer__info--list-item-link">
+                                        Speakers
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col l-3 m-6 c-5">
+                            <h6 class="footer__info-title">FOLLOW US</h6>
+                            <p href="" class="footer__info--list-item-link">
+                                And get Free Shipping on all your orders!
+                            </p>
+                            <ul class="footer__info--list-icon">
+                                <li class="footer__info--list-icon-item">
+                                    <a href="" class="footer__info-link-icon">
+                                        <i class="footer__info-icon ti-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-icon-item">
+                                    <a href="" class="footer__info-link-icon">
+                                        <i class="footer__info-icon ti-twitter-alt"></i>
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-icon-item">
+                                    <a href="" class="footer__info-link-icon">
+                                        <i class="footer__info-icon ti-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="footer__info--list-icon-item">
+                                    <a href="" class="footer__info-link-icon">
+                                        <i class="footer__info-icon ti-pinterest-alt"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
 
+                    <h4 class="app__container-title pt-60">
+                        Sign up now & get 10% off
+                    </h4>
+                    <p class="app__container-introduce">
+                        Be the first to know about our new arrivals and exclusive offers.
+                    </p>
+                    <div class="footer__info-form-sign-up">
+                        <input type="text" class="footer__info-form-email-input" placeholder="Your email address">
+                        <a href="" class="footer__info-form-sumbit">Sign up</a>
+                    </div>
+                </div>
+            </div>
 
-  <!-- End: Main container -->
-
-  <!-- Begin: Footer -->
-  <!-- End: Footer -->
-  </div>
-
-  <!-- Back top -->
-  <div id="back-top">
-    <i class="back-top__icon ti-arrow-up"></i>
-  </div>
-
-  <script type="text/javascript" src="assets/js/main.js"></script>
+            <div class="footer__policy">
+                <div class="grid wide">
+                    <div class="row footer__policy-content">
+                            <div class="footer__policy-left">
+                                <a href="" class="footer__policy-left-link">Privacy Policy</a>
+                                <a href="" class="footer__policy-left-link">Terms & Conditions</a>
+                            </div>
+        
+                            <div class="footer__policy-right">
+                                <p class="footer__policy-right-copyright">
+                                    ©LeMinhHao - Goya
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="backtop">
+            <i class="backtop__icon ti-arrow-up"></i>
+        </div>
+    </div> 
 </body>
-
 </html>

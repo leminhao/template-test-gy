@@ -1,48 +1,152 @@
-// Slide
+/* Scroll */
 
-let slideIndex = 1;
-showSlider(slideIndex);
+window.onscroll = function() {showProduct()};
 
-function plusSlider(n) {
-  showSlider(slideIndex += n);
-}
-
-function currentSlider(n) {
-  showSlider(slideIndex = n);
-}
-
-function showSlider(n) {
-  let i;
-  let slider = document.getElementsByClassName("container-ads");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slider.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slider.length}
-  for (i = 0; i < slider.length; i++) {
-      slider[i].style.display = "none";
+function showProduct() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    document.getElementById("header__navbar-scroll").classList.add("scroll__change-color");
+    document.querySelector(".app__container-product").classList.add("scroll__show-product");
+    document.querySelector(".header-mobile-tablet").classList.add("scroll__change-color-tablet");
+  } else {
+    document.getElementById("header__navbar-scroll").classList.remove("scroll__change-color");
+    document.querySelector(".header-mobile-tablet").classList.remove("scroll__change-color-tablet");
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slider[slideIndex-1].style.display = "flex";
-  dots[slideIndex-1].className += " active";
-  
+
+  if (document.body.scrollTop > 590 || document.documentElement.scrollTop > 590) {
+    document.querySelector(".app__container-selling").classList.add("scroll__show-product");
+  } 
+
+  if (document.body.scrollTop > 1700 || document.documentElement.scrollTop > 1700) {
+    document.querySelector(".container__trending").classList.add("scroll__show-product");
+  } 
+
+  if (document.body.scrollTop > 2350 || document.documentElement.scrollTop > 2350) {
+    document.querySelector(".container__visit").classList.add("scroll__show-product");
+  } 
 }
 
 
-//Back-top
-window.onscroll = function () { scrollFunction() };
-function scrollFunction() {
-    // Kiểm tra vị trí hiện tại của con trỏ so với nội dung trang
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("back-top").style.display = "flex";
-    } else {
 
-        document.getElementById("back-top").style.display = "none";
+/* Show subnav */
+
+/* Main */
+function mouseOverMain() {
+  document.querySelector(".header__navbar-main").classList.add("header__navbar-item-subnav-show");
+}
+
+function mouseOutMain() {
+  document.querySelector(".header__navbar-main").classList.remove("header__navbar-item-subnav-show");
+}
+
+/* Shop */
+function mouseOverShop() {
+  document.querySelector(".header__navbar-shop").classList.add("header__navbar-item-subnav-show");
+}
+
+function mouseOutShop() {
+  document.querySelector(".header__navbar-shop").classList.remove("header__navbar-item-subnav-show");
+}
+
+/* Product */
+function mouseOverProduct() {
+  document.querySelector(".header__navbar-product").classList.add("header__navbar-item-subnav-show");
+}
+
+function mouseOutProduct() {
+  document.querySelector(".header__navbar-product").classList.remove("header__navbar-item-subnav-show");
+}
+
+/* Pages */
+function mouseOverPages() {
+  document.querySelector(".header__navbar-pages").classList.add("header__navbar-item-subnav-show");
+}
+
+function mouseOutPages() {
+  document.querySelector(".header__navbar-pages").classList.remove("header__navbar-item-subnav-show");
+}
+
+/* Journal */
+function mouseOverJournal() {
+  document.querySelector(".header__navbar-journal").classList.add("header__navbar-item-subnav-show");
+}
+
+function mouseOutJournal() {
+  document.querySelector(".header__navbar-journal").classList.remove("header__navbar-item-subnav-show");
+}
+
+/* Jquery*/
+$(document).ready(function(){
+  $('.slide-1').owlCarousel({
+    margin: 0,
+    loop: true,
+    items: 1,
+    nav: false,
+    navSpeed: 500,
+    autoheight: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    smartSpeed: 500,
+  })
+
+  var owl = $('.slide-1');
+  owl.owlCarousel();
+  $('.owl-next-one').click(function() {
+      owl.trigger('next.owl.carousel', [700]);
+  })
+  $('.owl-prev-one').click(function() {
+      owl.trigger('prev.owl.carousel', [700]);
+  })
+
+  /* Slide two */
+  $('.slide-2').owlCarousel({
+    margin: 500,
+    loop: true,
+    items: 1,
+    nav: false,
+    navSpeed: 500,
+    autoheight: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    smartSpeed: 500,
+    responsive:{
+      0:{
+          items:1,
+      },
+      600:{
+          items:1,
+      },
+      1000:{
+          items:1,
+      }
     }
-}
-//gán sự kiện click cho button
-document.getElementById('back-top').addEventListener("click", function(){
-    document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  })
 
-})
+  var owlTwo = $('.slide-2');
+  owlTwo.owlCarousel();
+  $('.owl-next-two').click(function() {
+    owlTwo.trigger('next.owl.carousel', [700]);
+  })
+  $('.owl-prev-two').click(function() {
+    owlTwo.trigger('prev.owl.carousel', [700]);
+  })
+
+  $('.owl-dot-two').click(function () {
+    owlTwo.trigger('to.owl.carousel', [$(this).index(), 1000]);
+  })
+
+  /* BackTop */
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop()) {
+      $('#backtop').fadeIn();
+    } else {
+      $('#backtop').fadeOut();
+    }
+  });
+  $('#backtop').click(function() {
+    $('html, body').animate({scrollTop: 0}, 800);
+  });
+
+});
